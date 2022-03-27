@@ -117,7 +117,7 @@ let resetTimer;
 let defaultMetricsInitiated = false;
 let gcStatsInitiated = false;
 const was = {
-	enabled: false,
+	enabled: true,
 	port: 9458,
 	resetInterval: 0,
 	collectGC: false,
